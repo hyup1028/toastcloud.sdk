@@ -1,0 +1,6 @@
+framework module ToastUnityIAP {
+  umbrella header "ToastUnityIAP.h"
+
+  export *
+  module * { export * }
+}
