@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>
+#import <NHNCloudPush/NHNCloudPush.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -27,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 API_AVAILABLE(ios(10.0))
 __attribute__((deprecated("use NHNCloudPushServiceExtension instead.")))
-@interface ToastPushServiceExtension : UNNotificationServiceExtension
+@interface ToastPushServiceExtension : NHNCloudPushServiceExtension
 
 @end
 
